@@ -218,7 +218,6 @@ resources:
           pool: { get_resource: pool_DBserver }
           port: 3306
 
-
 ################################# Create the load balancer webserver ################################
  
   loadbalancer_webserver:
@@ -338,7 +337,6 @@ resources:
       timeout: 3
       max_retries: 3
       pool: { get_resource: pool_DBserver }
-
 
 outputs:
 
