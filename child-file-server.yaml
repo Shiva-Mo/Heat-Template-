@@ -60,8 +60,8 @@ resources:
         apt-get update
         apt-get install -y nginx
         uname -n > /usr/share/nginx/html/index.html
-###########you can configure the nginx as your desire(e.g. listen to your desired port number)at the bellowing path 
-###########/etc/nginx/sites-enabled/default then for applying changes use sudo service nginx restart       
+########### you can configure the nginx as your desire(e.g. listen to your desired port number)at the bellowing path 
+########### /etc/nginx/sites-enabled/default then for applying changes use sudo service nginx restart       
 
   member_pool_fileserver:
     type: OS::Neutron::LBaaS::PoolMember
